@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.menu-bar{
+    background-color: rgba(0, 255, 255, 0.75);
+    text-align: center;
+}
+.menu-bar ul{
+
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 8px;
+    padding: 8px;
+
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color:blue;
+}
+ .menu-bar ul li:hover{
+    background-color:#DBFF33 ;
+    border-radius: 10px;
+}
+
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display:block;
+    position: absolute;
+    background: rgba(0, 255, 255, 0.90);
+    margin-top: 1px;
+    margin-left: -15px;
+    z-index: 9999;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+    z-index: 9999;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 450px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    z-index: 9999;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:black;
+}
+.fa fa-angle-right{
+    float: right;
+    margin-right: 0px;
+}
+
+.National_antham{
+    font-size:18px;
+    width: 45%;
+    float:right;
+    margin: 35px;
+}
+.National_antham a{
+    text-decoration: none;
+    color: #000;
+}
+.National_antham a:hover{
+    color: rgba(0, 255, 255, 0.75);
+}
+
+
+.more {
+    display: none;
+}
+
+.menu-bar ul li:hover .more {
+    display: block;
+    position: absolute;
+    background: rgba(0, 255, 255, 0.90);
+    margin-top: 1px;
+    margin-left: -15px;
+    z-index: 9999;
+}
+
+.menu-bar ul li:hover .more ul {
+    display: block;
+    margin: 10px;
+    z-index: 9999;
+}
+
+.menu-bar ul li:hover .more ul li {
+    width: 450px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .more ul li:last-child {
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .more ul li a:hover {
+    color: black;
+}
+
+
+.sub-menu-2 {
+    display: none;
+    border: 3px solid;
+    border-color:bisque ;
+    border-radius: 5%;
+}
+
+.sub-menu-1 ul li:hover .sub-menu-2 {
+    display: block;
+    position: absolute;
+    background: rgba(0, 255, 255, 0.95);
+    margin-top: 1px;
+    margin-left: - 5px;
+}
+
+.sub-menu-1 ul li:hover .sub-menu-2 ul {
+    display: block;
+    margin: 10px;
+}
+
+.sub-menu-1 ul li:hover .sub-menu-2 ul li {
+    width: 450px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.sub-menu-1 ul li:hover .sub-menu-2 ul li:last-child {
+    border-bottom: none;
+}
+
+.sub-menu-1 ul li:hover .sub-menu-2 ul li a:hover {
+    color: black;
+}
+.welcome{
+    width: 15%;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+
+.welcome a {
+    text-decoration: none;
+    color: #000;
+}
+
+.welcome a:hover {
+    color: rgba(0, 255, 255, 1);
+}
+audio{
+    z-index: -10px;
+}
+
+
+
